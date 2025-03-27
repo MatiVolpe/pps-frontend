@@ -1,12 +1,22 @@
-# React + Vite
+# Proyecto Frontend - Aplicación de Viajes Compartidos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene el **frontend** de una aplicación web desarrollada para facilitar la organización y gestión de **viajes compartidos** hacia eventos masivos, como recitales, partidos o movilizaciones. La plataforma permite a los usuarios coordinar transporte en colectivos, combis u otros medios compartidos, promoviendo una forma más accesible y sustentable de asistir a este tipo de eventos.
 
-Currently, two official plugins are available:
+## Funcionalidades principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Búsqueda y visualización de viajes disponibles
+- Creación y gestión de nuevos viajes compartidos
+- Visualización de detalles de cada evento o viaje
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tecnologías utilizadas
+
+Este proyecto fue construido con las siguientes tecnologías:
+
+- **React**: Biblioteca principal para la construcción de interfaces de usuario
+- **MUI (Material UI)**: Librería de componentes para diseño visual consistente y adaptable
+- **React Router**: Manejo de rutas y navegación dentro de la SPA (Single Page Application)
+
+## Estructura del proyecto
+
+El código fuente se encuentra organizado en carpetas claras y modulares para facilitar la escalabilidad y el mantenimiento. Se hace uso de componentes reutilizables, hooks personalizados y estilos consistentes.
